@@ -1,0 +1,194 @@
+
+
+body {
+	font-size:16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+
+
+
+}
+
+nav {
+	height:6rem;
+	position:fixed;
+	z-index:400;
+	background-color:#FFFFFF;
+	width:100%;
+	
+}
+
+
+nav ul{
+	margin:2rem 0 2rem 18rem;
+} 
+nav div ul li{
+	list-style: none;
+	display:inline;
+	margin-left:3rem;
+	font-size:1.5rem;
+
+}
+
+a{
+	text-decoration: none;
+	color:#CC3333;
+	font-weight:300;
+}
+nav ul li a{
+	font-variant:small-caps;
+}
+.drew{
+	font-size:3rem;
+	font-weight:700;
+	margin:2rem 0 2rem 1rem;
+	
+	color:orange;
+}
+.portrait{
+	margin-top:3rem;
+}
+/*---------------------------------------------------------------sections */
+
+
+
+.vertical-text {
+	color:#CC3333;
+	margin-top:20rem;
+	position:fixed;
+  -ms-transform: rotate(90.0deg); /* IE9+ */
+  -o-transform: rotate(90.0deg); /* Opera 10.5 */
+  -webkit-transform: rotate(90.0deg); /* Safari 3.1+*/
+}
+
+
+
+.panel {
+	background:blue;
+}
+.columns {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.vertical-text {
+	transform: rotate(90deg);
+}
+
+.about{
+	padding:2rem 2.125rem 0 0;
+	color:#CC3333;
+}
+.product p, h3{
+	padding:1rem 1.5rem 1rem 1rem;
+	line-height:2.25rem;
+}
+.project-type{
+	margin-top:-2.8rem;
+}
+.rollo .columns{
+	margin-top:3rem;
+}
+.red{
+	color:#CC3333;
+}
+.redbox{
+	margin-top:60rem;
+	margin-left:-3rem;
+	max-width:50%;
+	max-height:50%;
+
+}
+.legal{
+	text-align:center;
+	padding:2rem;
+	color:orange;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////HOVER Tester */
+.hover{
+	position:absolute;
+
+}
+
+#rollo-tag:hover{
+	filter: grayscale(0.6);
+
+}
+
+.wrapper .text {
+position:relative;
+top:-10em;
+left:0em;
+visibility:hidden;
+background-color:rgba(255,222,0,0.7);
+height:10em;   
+width:24.5em;
+text-align:left;
+}
+
+
+.wrapper:hover .text {
+visibility:visible;
+}
+
+.wrapper:hover img {
+filter: grayscale(0.6);
+
+}
+a:hover{
+	filter:grayscale(.6);
+	-webkit-filter: grayscale(.6)
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////SCREEN SIZE VARIANTS */
+
+@media only screen and (max-width: 40rem) {
+	
+
+
+.vertical-text{
+	color:#CC3333;
+	margin-top:20rem;
+	margin-left:-1rem;
+	position:fixed;
+	font-size:.5rem;
+	z-index:100;	
+}
+.wrapper .text {
+margin:5rem 0 0 0;
+height:5rem;   
+width:10rem;
+}
+
+nav ul{
+	margin:2.5rem 0 2rem 3rem;
+} 
+.drew{
+
+	font-size:3rem;
+	font-weight:700;
+	margin:.5rem 0 2rem .5rem;
+	position:fixed;
+	color:orange;
+}
+.portrait{
+	margin-top:0rem;
+}
+}
+@media only screen and (min-width: 40.063rem) {
+	
+
+.vertical-text {
+transform-origin: left top 0;
+}
+nav ul{
+margin:2rem 0 2rem 18rem;
+} 
+
+}
+@media only screen and (min-width: 64.063rem) {
+}
+
