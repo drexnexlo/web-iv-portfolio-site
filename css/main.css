@@ -12,7 +12,7 @@ VI. size variants
 
 /*-------------------------------------------------------body */
 body {
-    font:normal 16px 'Source Sans Pro', sans-serif;
+    font: normal 16px 'Source Sans Pro', sans-serif;
 }
 a {
     text-decoration: none;
@@ -35,7 +35,8 @@ p.text {
     line-height:2.25rem;
 }
 .about p{
-	font:.75rem/1.5rem;
+	font-size:.75rem;
+    line-height:1.5rem;
 
 }
 .project-type {
@@ -163,10 +164,10 @@ a:hover {
 
 @media only screen and (max-width: 40rem) {
     .name{
-	font-size:.75rem;
-    font-weight: 300;
-    margin: -4.5rem 0 -1rem 3.5rem;
-    color: #FF6633;
+	   font-size:.75rem;
+        font-weight: 300;
+        margin: -4.5rem 0 -1rem 3.5rem;
+        color: #FF6633;
     }
     .wrapper .text {
         margin: 5rem 0 0 0;
@@ -184,10 +185,10 @@ a:hover {
         margin-top: 0rem;
     }
     .decorative-box {
-   margin:28rem 0 0 1rem;
+        margin:28rem 0 0 .5rem;
     }
     .decorative-box-2 {
-   margin:70rem 0 0 1rem;
+        margin:70rem 0 0 .5rem;
     }
     .intro-first {
         margin-top:6rem;
