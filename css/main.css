@@ -12,8 +12,7 @@ VI. size variants
 
 /*-------------------------------------------------------body */
 body {
-    font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font:normal 16px 'Source Sans Pro', sans-serif;
 }
 a {
     text-decoration: none;
@@ -36,8 +35,8 @@ p.text {
     line-height:2.25rem;
 }
 .about p{
-	font-size:.75rem;
-	line-height:1.5rem;
+	font:.75rem/1.5rem;
+
 }
 .project-type {
     margin-top:-2.8rem;
@@ -55,7 +54,7 @@ nav {
     height: 10rem;
     z-index: 10000;
     width: 100%;
-    border-bottom: .25rem solid #FF6633
+    border-bottom: .1rem solid #FF6633
   
 }
 nav ul {
@@ -76,7 +75,8 @@ span.drew {
 
     text-transform:uppercase;
 }
- .name{
+.name{
+
 	font-size:1.5rem;
     font-weight: 300;
     margin: 2rem 0 2rem 1rem;
@@ -105,15 +105,13 @@ span.drew {
     color:#FF6633;
     text-transform:uppercase;
 }
-.redbox {
-    margin-top:80rem;
-    margin-left:-3rem;
+.decorative-box {
+    margin:80rem 0 0 -3rem;
     max-width:50%;
     max-height:50%;
 }
-.redbox-2 {
-    margin-top:110rem;
-    margin-left:-3rem;
+.decorative-box-2 {
+    margin:110rem 0 0 -3rem;
     max-width:50%;
     max-height:50%;
 }
@@ -125,7 +123,7 @@ span.drew {
 
 /*---------------------------------------------------------------gallery / imgs */
 
-.top-margin {
+.intro-first {
     margin-top:10rem;
 }
 
@@ -138,9 +136,6 @@ span.drew {
 .hover {
     position:absolute;
 }
-#rollo-tag:hover {
-    filter: grayscale(0.6);
-}
 .wrapper .text {
     position:relative;
     top:-10rem;
@@ -149,10 +144,9 @@ span.drew {
     color:rgba(255,222,0,0.9);
     height:2em;
     width:100%;
-    font-size:2rem;
     text-align:left;
     text-transform:uppercase;
-    line-height:1.5rem;
+    font:1.25rem/.55rem;
     font-weight:900;
 }
 .wrapper:hover .text {
@@ -168,10 +162,10 @@ a:hover {
 /*--------------------------------------------------------------- screen variants */
 
 @media only screen and (max-width: 40rem) {
-     .name{
+    .name{
 	font-size:.75rem;
     font-weight: 300;
-    margin: -5rem 0 2rem 3.5rem;
+    margin: -4.5rem 0 -1rem 3.5rem;
     color: #FF6633;
     }
     .wrapper .text {
@@ -182,25 +176,25 @@ a:hover {
     nav ul {
         margin: 1.5rem 0 2rem 3rem;
     }
+    nav{
+       height:6rem;
+    }
    
     .portrait {
         margin-top: 0rem;
     }
-    .redbox {
-    margin-top:5em;
-    margin-left:-1rem;
-    max-width:20%;
-    max-height:20%;
+    .decorative-box {
+   margin:28rem 0 0 1rem;
+    }
+    .decorative-box-2 {
+   margin:70rem 0 0 1rem;
+    }
+    .intro-first {
+        margin-top:6rem;
+    }
+
 
 }
-.redbox-2 {
-    margin-top:10rem;
-    margin-left:-1rem;
-    max-width:20%;
-    max-height:20%;
-}
-}
-
 
 @media only screen and (min-width: 40.063rem) {
     .vertical-text {
