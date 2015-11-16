@@ -1,194 +1,204 @@
+/* main stylesheet for portfolio website.
+-----------------------------------------------------table of contents 
+
+I. body content / text styles
+II. header - navigation
+III. sidebar / copyright
+IV. gallery / imgs
+VI. hover states
+VI. size variants
+*/
 
 
+/*-------------------------------------------------------body */
 body {
-	font-size:16px;
-	font-family: 'Source Sans Pro', sans-serif;
-	
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-
-
-
+a {
+    text-decoration: none;
+    color: #FF6633;
+    font-weight: 300;
 }
-
-nav {
-	height:6rem;
-	position:fixed;
-	z-index:400;
-	background-color:#FFFFFF;
-	width:100%;
-	
-}
-
-
-nav ul{
-	margin:2rem 0 2rem 18rem;
-} 
-nav div ul li{
-	list-style: none;
-	display:inline;
-	margin-left:3rem;
-	font-size:1.5rem;
-
-}
-
-a{
-	text-decoration: none;
-	color:#CC3333;
-	font-weight:300;
-}
-nav ul li a{
-	font-variant:small-caps;
-}
-.drew{
-	font-size:3rem;
-	font-weight:700;
-	margin:2rem 0 2rem 1rem;
-	
-	color:orange;
-}
-.portrait{
-	margin-top:3rem;
-}
-/*---------------------------------------------------------------sections */
-
-
-
-.vertical-text {
-	color:#CC3333;
-	margin-top:20rem;
-	position:fixed;
-  -ms-transform: rotate(90.0deg); /* IE9+ */
-  -o-transform: rotate(90.0deg); /* Opera 10.5 */
-  -webkit-transform: rotate(90.0deg); /* Safari 3.1+*/
-}
-
-
-
-.panel {
-	background:blue;
+p.text {
+    width:100%;
 }
 .columns {
-  padding-left: 0rem;
-  padding-right: 0rem;
+    padding:0 0 0 0;
+}
+.about {
+    padding:2rem 2.125rem 0 0;
+    color:#FF6633;
 }
 
-.vertical-text {
-	transform: rotate(90deg);
+.product p,h3 {
+    padding:1rem 1.5rem 1rem 1rem;
+    line-height:2.25rem;
+}
+.project-type {
+    margin-top:-2.8rem;
+}
+.rollo .columns {
+    margin-top:3rem;
 }
 
-.about{
-	padding:2rem 2.125rem 0 0;
-	color:#CC3333;
-}
-.product p, h3{
-	padding:1rem 1.5rem 1rem 1rem;
-	line-height:2.25rem;
-}
-.project-type{
-	margin-top:-2.8rem;
-}
-.rollo .columns{
-	margin-top:3rem;
-}
-.red{
-	color:#CC3333;
-}
-.redbox{
-	margin-top:60rem;
-	margin-left:-3rem;
-	max-width:50%;
-	max-height:50%;
 
+
+/*-------------------------------------------------------header / nav */
+nav {
+    position: fixed;
+    background-color: white;
+    height: 10rem;
+    z-index: 10000;
+    width: 100%;
 }
-.legal{
-	text-align:center;
-	padding:2rem;
-	color:orange;
+nav ul {
+    margin: 2rem 0 2rem 18rem;
+}
+nav div ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 3rem;
+    font-size: 1.5rem;
 }
 
-/* ////////////////////////////////////////////////////////////////////////////////HOVER Tester */
-.hover{
-	position:absolute;
+nav ul li a {
+    font-variant: small-caps;
+}
+span.drew {
 
+    text-transform:uppercase;
+}
+ .name{
+	font-size:1.5rem;
+    font-weight: 300;
+    margin: 2rem 0 2rem 1rem;
+    color: #FF6633;
 }
 
-#rollo-tag:hover{
-	filter: grayscale(0.6);
+/*---------------------------------------------------------------sidebar - copyright */
 
+.email {
+    color:#FF6633;
+    margin:20rem 0 0 -3rem;
+    position:fixed;
+    -ms-transform: rotate(90.0deg);
+    /* IE9+ */
+    
+    -o-transform: rotate(90.0deg);
+    /* Opera 10.5 */
+    
+    -webkit-transform: rotate(90.0deg);
+    /* Safari 3.1+*/
+    transform:rotate(90.0deg);
+}
+.title {
+    color:#FF6633;
+    text-transform:uppercase;
+}
+.redbox {
+    margin-top:80rem;
+    margin-left:-3rem;
+    max-width:50%;
+    max-height:50%;
+}
+.redbox-2 {
+    margin-top:110rem;
+    margin-left:-3rem;
+    max-width:50%;
+    max-height:50%;
+}
+.legal {
+    text-align:center;
+    padding:2rem;
+    color:orange;
 }
 
+/*---------------------------------------------------------------gallery / imgs */
+
+.top-margin {
+    margin-top:10rem;
+}
+
+.portrait {
+    margin-top: 3rem;
+}
+
+/*--------------------------------------------------------------- hover states */
+
+.hover {
+    position:absolute;
+}
+#rollo-tag:hover {
+    filter: grayscale(0.6);
+}
 .wrapper .text {
-position:relative;
-top:-10em;
-left:0em;
-visibility:hidden;
-background-color:rgba(255,222,0,0.7);
-height:10em;   
-width:24.5em;
-text-align:left;
+    position:relative;
+    top:-10rem;
+    left:0em;
+    visibility:hidden;
+    color:rgba(255,222,0,0.9);
+    height:2em;
+    width:100%;
+    font-size:2rem;
+    text-align:left;
+    text-transform:uppercase;
+    line-height:1.5rem;
+    font-weight:900;
 }
-
-
 .wrapper:hover .text {
-visibility:visible;
+    visibility:visible;
 }
-
 .wrapper:hover img {
-filter: grayscale(0.6);
-
+    filter: grayscale(0.6);
 }
-a:hover{
-	filter:grayscale(.6);
-	-webkit-filter: grayscale(.6)
+a:hover {
+    filter:grayscale(.6);
+    -webkit-filter: grayscale(.6)
 }
-
-
-/* ////////////////////////////////////////////////////////////////////////////////SCREEN SIZE VARIANTS */
+/*--------------------------------------------------------------- screen variants */
 
 @media only screen and (max-width: 40rem) {
-	
+     .name{
+	font-size:.75rem;
+    font-weight: 300;
+    margin: -5rem 0 2rem 3.5rem;
+    color: #FF6633;
+    }
+    .wrapper .text {
+        margin: 5rem 0 0 0;
+        height: 5rem;
+        width: 10rem;
+    }
+    nav ul {
+        margin: 2.5rem 0 2rem 3rem;
+    }
+  
+    .portrait {
+        margin-top: 0rem;
+    }
+    .redbox {
+    margin-top:5em;
+    margin-left:-1rem;
+    max-width:20%;
+    max-height:20%;
+
+}
+.redbox-2 {
+    margin-top:10rem;
+    margin-left:-1rem;
+    max-width:20%;
+    max-height:20%;
+}
+}
 
 
-.vertical-text{
-	color:#CC3333;
-	margin-top:20rem;
-	margin-left:-1rem;
-	position:fixed;
-	font-size:.5rem;
-	z-index:100;	
-}
-.wrapper .text {
-margin:5rem 0 0 0;
-height:5rem;   
-width:10rem;
-}
-
-nav ul{
-	margin:2.5rem 0 2rem 3rem;
-} 
-.drew{
-
-	font-size:3rem;
-	font-weight:700;
-	margin:.5rem 0 2rem .5rem;
-	position:fixed;
-	color:orange;
-}
-.portrait{
-	margin-top:0rem;
-}
-}
 @media only screen and (min-width: 40.063rem) {
-	
-
-.vertical-text {
-transform-origin: left top 0;
+    .vertical-text {
+        transform-origin: left top 0;
+    }
+    nav ul {
+        margin: 2rem 0 2rem 18rem;
+    }
 }
-nav ul{
-margin:2rem 0 2rem 18rem;
-} 
-
-}
-@media only screen and (min-width: 64.063rem) {
-}
-
+@media only screen and (min-width: 64.063rem) {}
