@@ -71,14 +71,12 @@ nav {
 }
 nav ul {
     margin: 2rem 0 2rem 18rem;
-  
 }
 nav div ul li {
     list-style: none;
     display: inline;
     margin-left: 3rem;
     font-size: 1.5rem;
-
 }
 
 nav ul li a {
@@ -95,7 +93,7 @@ span.drew {
     font-weight: 300;
     margin: 2rem 0 2rem 1rem;
     color: #FF6633;
- }
+}
 
 
 
@@ -119,31 +117,21 @@ span.drew {
 .title {
     color:#FF6633;
     text-transform:uppercase;
-    font-family:'cubano',sans-serif;
 }
 .decorative-box {
     margin:80rem 0 0 -3rem;
     max-width:50%;
     max-height:50%;
 }
-
-/*----------------------------------------------------------------footer */
 .decorative-box-2 {
-    margin:2rem 0 2rem 2rem;
+    margin:110rem 0 0 -3rem;
     max-width:50%;
     max-height:50%;
 }
-.decorative-box-2 img{
-    float:right;
-}
-
 .legal {
     text-align:left;
     padding:2rem;
     color:#ff6633;
-    line-height:.5rem;
-    font-size:.75rem;
-    margin:.5rem 0 0 -2rem;
 }
 
 /*---------------------------------------------------------------gallery / imgs */
@@ -212,10 +200,9 @@ a:hover {
     .decorative-box {
         margin:28rem 0 0 .5rem;
     }
-    /*
     .decorative-box-2 {
         margin:55rem 0 0 .5rem;
-    }*/
+    }
     .intro-first {
         margin-top:6rem;
     }
@@ -226,37 +213,30 @@ a:hover {
     .email{
          margin:20rem 0 0 -4rem;
     }
-    .legal {
-   font-size:.5rem;
-   margin:-7.5rem 0 0 1rem;
-}
 }
 
-@media only screen and (min-width: 30rem) and (max-width: 45.063rem) {
+@media only screen and (min-width: 30rem) and (max-width: 40rem) {
     nav ul{
-        margin:3rem 0 2rem 10rem;
+        margin:3rem 0 2rem 11rem;
         }
-    p.text {
-    font:2rem 'cubano', sans-serif;
-    width:100%;
-}
+    
     .name{
         font-size:1.5rem;
         font-weight: 300;
         margin: -4.5rem 0 -1rem 1.5rem;
         color: #FF6633;
     }
-    /*
       .decorative-box-2 {
         margin:55rem 0 0 .5rem;
-    }*/
-    
+    }
     }
 @media only screen and (min-width: 45.063rem) {
     .vertical-text {
         transform-origin: left top 0;
     }
- 
+          .decorative-box-2 {
+        margin:55rem 0 0 .5rem;
+    }
     nav ul {
         margin: 2rem 0 2rem 18rem;
     }
