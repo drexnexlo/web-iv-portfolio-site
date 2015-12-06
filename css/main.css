@@ -217,7 +217,7 @@ a:hover {
         margin:55rem 0 0 .5rem;
     }*/
     .intro-first {
-        margin-top:6rem;
+        margin-top:8rem;
     }
     p.text {
         font:1.5rem 'cubano', sans-serif;
@@ -230,6 +230,12 @@ a:hover {
    font-size:.5rem;
    margin:-7.5rem 0 0 1rem;
 }
+    .legal-project{
+        font-size:.5rem;
+        margin:0 0 0 1rem;
+        padding:1rem ;
+         color: #FF6633;
+    }
 }
 
 @media only screen and (min-width: 30rem) and (max-width: 45.063rem) {
