@@ -1,9 +1,8 @@
+@import  https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100;
+
 /* main stylesheet for portfolio website.
 
 /*-------------------------------------------------------fonts */
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100); 
-
-
 /*-----------------------------------------------------table of contents 
 
 I. body content / text styles
@@ -13,72 +12,73 @@ IV. gallery / imgs
 VI. hover states
 VI. size variants
 */
-
-
 /*-------------------------------------------------------body */
 body {
-    font: normal 16px 'Roboto Slab', sans-serif;
+    font: normal 16px 'Roboto Slab',sans-serif;
 }
+
 a {
     text-decoration: none;
-    color: #FF6633;
+    color: #F63;
     font-weight: 400;
 }
+
 p.text {
-    font:3rem 'cubano', sans-serif;
-    width:100%;
+    font: 3rem cubano,sans-serif;
+    width: 100%;
 }
+
 .columns {
-    padding:0 0 0 0;
+    padding: 0;
 }
+
 .about {
-    padding:2rem 2.125rem 0 0;
-    color:#FF6633;
+    padding: 2rem 2.125rem 0 0;
+    color: #F63;
 }
 
-.product p{
-    padding:1rem 1.5rem 1rem 1rem;
-    line-height:2.25rem;
-    
+.product p {
+    padding: 1rem 1.5rem 1rem 1rem;
+    line-height: 2.25rem;
 }
-.product h2{
-     padding:1rem 1.5rem 1rem 1rem;
-     font-size:1.17rem;
-}
-.about p{
-	font-size:.75rem;
-    line-height:1.5rem;
 
+.product h2 {
+    padding: 1rem 1.5rem 1rem 1rem;
+    font-size: 1.17rem;
 }
+
+.about p {
+    font-size: .75rem;
+    line-height: 1.5rem;
+}
+
 .project-type {
-    margin-top:-2.8rem;
+    margin-top: -2.8rem;
 }
+
 .rollo .columns {
-    margin-top:3rem;
+    margin-top: 3rem;
 }
-
-
 
 /*-------------------------------------------------------header / nav */
 nav {
     position: fixed;
-    background-color: white;
+    background-color: #fff;
     height: 10rem;
     z-index: 10000;
     width: 100%;
-    border-bottom: .1rem solid #FF6633
-  
+    border-bottom: .1rem solid #F63;
 }
+
 nav ul {
     margin: 2rem 0 2rem 18rem;
-  
 }
+
 nav div ul li {
     list-style: none;
     display: inline;
     margin-left: 3rem;
     font-size: 1.5rem;
-
 }
 
 nav ul li a {
@@ -86,70 +86,67 @@ nav ul li a {
 }
 
 span.drew {
-
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
-.name{
-    font-family:'Cubano',sans-serif;
-	font-size:1.5rem;
+
+.name {
+    font-family: 'Cubano',sans-serif;
+    font-size: 1.5rem;
     font-weight: 300;
     margin: 2rem 0 2rem 1rem;
-    color: #FF6633;
- }
-
-
+    color: #F63;
+}
 
 /*---------------------------------------------------------------sidebar - copyright */
-
 .email {
-    text-decoration:underline;
-    color:#FF6633;
-    margin:20rem 0 0 -3rem;
-    position:fixed;
+    text-decoration: underline;
+    color: #F63;
+    margin: 20rem 0 0 -3rem;
+    position: fixed;
     -ms-transform: rotate(90.0deg);
-    /* IE9+ */
-    
+/* IE9+ */
     -o-transform: rotate(90.0deg);
-    /* Opera 10.5 */
-    
+/* Opera 10.5 */
     -webkit-transform: rotate(90.0deg);
-    /* Safari 3.1+*/
-    transform:rotate(90.0deg);
+/* Safari 3.1+*/
+    transform: rotate(90.0deg);
 }
+
 .title {
-    color:#FF6633;
-    text-transform:uppercase;
-    font-family:'cubano',sans-serif;
+    color: #F63;
+    text-transform: uppercase;
+    font-family: 'cubano',sans-serif;
 }
+
 .decorative-box {
-    margin:80rem 0 0 -3rem;
-    max-width:50%;
-    max-height:50%;
+    margin: 80rem 0 0 -3rem;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 /*----------------------------------------------------------------footer */
 .decorative-box-2 {
-    margin:2rem 0 2rem 2rem;
-    max-width:50%;
-    max-height:50%;
+    margin: 2rem 0 2rem 2rem;
+    max-width: 50%;
+    max-height: 50%;
 }
-.decorative-box-2 img{
-    float:right;
+
+.decorative-box-2 img {
+    float: right;
 }
 
 .legal {
-    text-align:left;
-    padding:2rem;
-    color:#ff6633;
-    line-height:.5rem;
-    font-size:.75rem;
-    margin:.5rem 0 0 -2rem;
+    text-align: left;
+    padding: 2rem;
+    color: #f63;
+    line-height: .5rem;
+    font-size: .75rem;
+    margin: .5rem 0 0 -2rem;
 }
 
 /*---------------------------------------------------------------gallery / imgs */
-
 .intro-first {
-    margin-top:10rem;
+    margin-top: 10rem;
 }
 
 .portrait {
@@ -157,114 +154,134 @@ span.drew {
 }
 
 /*--------------------------------------------------------------- hover states */
-
 .hover {
-    position:absolute;
+    position: absolute;
 }
+
 .wrapper .text {
-    position:relative;
-    top:-10rem;
-    left:0em;
-    visibility:hidden;
-    color:rgba(255,222,0,0.9);
-    height:2em;
-    width:100%;
-    text-align:left;
-    text-transform:uppercase;
-    font:1.25rem/.55rem;
-    font-weight:900;
+    position: relative;
+    top: -10rem;
+    left: 0;
+    visibility: hidden;
+    color: rgba(255,222,0,0.9);
+    height: 2em;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font: 1.25rem/.55rem;
+    font-weight: 900;
 }
+
 .wrapper:hover .text {
-    visibility:visible;
+    visibility: visible;
 }
+
 .wrapper:hover img {
     filter: grayscale(0.6);
 }
+
 a:hover {
-    filter:grayscale(.6);
-    -webkit-filter: grayscale(.6)
+    filter: grayscale(.6);
+    -webkit-filter: grayscale(.6);
 }
+
 /*--------------------------------------------------------------- screen variants */
-
-
 @media only screen and (max-width: 30rem) {
-    .name{
-	   font-size:.85rem;
-        font-weight: 900;
-        margin: -3.5rem 0 -1rem 3rem;
-        color: #FF6633;
-    }
-    .wrapper .text {
-        margin: 5rem 0 0 0;
-        height: 5rem;
-        width: 10rem;
-    }
-    nav ul {
-        margin: 1.5rem 0 2rem 2rem;
-    }
-    nav{
-       height:8rem;
-    }
-   
-    .portrait {
-        margin-top: 0rem;
-    }
-    .decorative-box {
-        margin:28rem 0 0 .5rem;
-    }
-    /*
-    .decorative-box-2 {
-        margin:55rem 0 0 .5rem;
-    }*/
-    .intro-first {
-        margin-top:8rem;
-    }
-    p.text {
-        font:1.5rem 'cubano', sans-serif;
-        width:100%;
-    }
-    .email{
-         margin:20rem 0 0 -4rem;
-    }
-    .legal {
-   font-size:.5rem;
-   margin:-7.5rem 0 0 1rem;
+.name {
+    font-size: .85rem;
+    font-weight: 900;
+    margin: -3.5rem 0 -1rem 3rem;
+    color: #F63;
 }
-    .legal-project{
-        font-size:.5rem;
-        margin:0 0 0 1rem;
-        padding:1rem ;
-         color: #FF6633;
-    }
+
+.wrapper .text {
+    margin: 5rem 0 0;
+    height: 5rem;
+    width: 10rem;
+}
+
+nav ul {
+    margin: 1.5rem 0 2rem 2rem;
+}
+
+nav {
+    height: 8rem;
+}
+
+.portrait {
+    margin-top: 0;
+}
+
+.decorative-box {
+    margin: 28rem 0 0 .5rem;
+}
+
+.intro-first {
+    margin-top: 8rem;
+}
+
+.intro-first .row {
+    margin: 0 auto;
+}
+
+p.text {
+    font: 1.5rem cubano,sans-serif;
+    width: 100%;
+}
+
+.email {
+    margin: 20rem 0 0 -4rem;
+}
+
+.legal {
+    font-size: .5rem;
+    margin: -7.5rem 0 0 1rem;
+}
+
+.legal-project {
+    font-size: .5rem;
+    margin: 0 0 0 1rem;
+    padding: 1rem;
+    color: #F63;
+}
 }
 
 @media only screen and (min-width: 30rem) and (max-width: 45.063rem) {
-    nav ul{
-        margin:3rem 0 2rem 10rem;
-        }
-    p.text {
-    font:2rem 'cubano', sans-serif;
-    width:100%;
+nav ul {
+    margin: 3rem 0 2rem 10rem;
 }
-    .name{
-        font-size:1.5rem;
-        font-weight: 300;
-        margin: -4.5rem 0 -1rem 1.5rem;
-        color: #FF6633;
-    }
-    /*
-      .decorative-box-2 {
-        margin:55rem 0 0 .5rem;
-    }*/
-    
-    }
+
+p.text {
+    font: 2rem cubano,sans-serif;
+    width: 100%;
+}
+
+.intro-first .row {
+    margin: 0;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: -4.5rem 0 -1rem 1.5rem;
+    color: #F63;
+}
+}
+
 @media only screen and (min-width: 45.063rem) {
-    .vertical-text {
-        transform-origin: left top 0;
-    }
- 
-    nav ul {
-        margin: 2rem 0 2rem 18rem;
-    }
+.vertical-text {
+    transform-origin: left top 0;
 }
-@media only screen and (min-width: 64.063rem) {}
+
+.intro-first .row {
+    margin: 0;
+}
+
+nav ul {
+    margin: 2rem 0 2rem 18rem;
+}
+}
+
+@media only screen and (min-width: 64.063rem) {
+
+}
