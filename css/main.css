@@ -158,6 +158,14 @@ span.drew {
     position: absolute;
 }
 
+a:hover {
+    filter: grayscale(.6);
+    -webkit-filter: grayscale(.6);
+}
+a:hover p {
+    filter: grayscale(.1);
+    -webkit-filter: grayscale(.1);
+}
 .wrapper .text {
     position: relative;
     top: -10rem;
@@ -170,23 +178,19 @@ span.drew {
     text-transform: uppercase;
     font: 1.25rem/.55rem;
     font-weight: 900;
+
 }
 
 .wrapper:hover .text {
     visibility: visible;
 }
 
-.wrapper:hover img {
-    filter: grayscale(0.6);
-}
 
-a:hover {
-    filter: grayscale(.6);
-    -webkit-filter: grayscale(.6);
-}
 
 /*--------------------------------------------------------------- screen variants */
 @media only screen and (max-width: 30rem) {
+
+
 .name {
     font-size: .85rem;
     font-weight: 900;
