@@ -59,6 +59,13 @@ p.text {
 .rollo .columns {
     margin-top: 3rem;
 }
+.social{
+    max-width:50%;
+    max-height:50%;
+}
+.stack {
+    margin:3rem 0;
+}
 
 /*-------------------------------------------------------header / nav */
 nav {
@@ -74,7 +81,7 @@ nav ul {
     margin: 2rem 0 2rem 18rem;
 }
 
-nav div ul li {
+ul li {
     list-style: none;
     display: inline;
     margin-left: 3rem;
@@ -188,7 +195,7 @@ a:hover p {
 
 
 /*--------------------------------------------------------------- screen variants */
-@media only screen and (max-width: 30rem) {
+@media only screen and (max-width: 31rem) {
 
 
 .name {
@@ -203,7 +210,10 @@ a:hover p {
     height: 5rem;
     width: 10rem;
 }
-
+p {
+    font-size:.75rem;
+    line-height:.5rem;
+}
 nav ul {
     margin: 1.5rem 0 2rem 2rem;
 }
@@ -234,7 +244,7 @@ p.text {
 }
 
 .email {
-    margin: 20rem 0 0 -4rem;
+    margin: 20rem 0 0 -2rem;
 }
 
 .legal {
@@ -250,7 +260,7 @@ p.text {
 }
 }
 
-@media only screen and (min-width: 30rem) and (max-width: 45.063rem) {
+@media only screen and (min-width: 31rem) and (max-width: 40.0625rem) {
 nav ul {
     margin: 3rem 0 2rem 10rem;
 }
