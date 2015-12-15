@@ -50,6 +50,7 @@ p.text {
 .about p {
     font-size: .75rem;
     line-height: 1.5rem;
+    margin: 2rem 0 0;
 }
 
 .project-type {
@@ -59,12 +60,14 @@ p.text {
 .rollo .columns {
     margin-top: 3rem;
 }
-.social{
-    max-width:50%;
-    max-height:50%;
+
+.social {
+    max-width: 50%;
+    max-height: 50%;
 }
+
 .stack {
-    margin:3rem 0;
+    margin: 3rem 0;
 }
 
 /*-------------------------------------------------------header / nav */
@@ -78,7 +81,7 @@ nav {
 }
 
 nav ul {
-    margin: 2rem 0 2rem 18rem;
+    margin: 2rem 0 2rem 15.25rem;
 }
 
 ul li {
@@ -157,7 +160,7 @@ span.drew {
 }
 
 .portrait {
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 /*--------------------------------------------------------------- hover states */
@@ -169,10 +172,12 @@ a:hover {
     filter: grayscale(.6);
     -webkit-filter: grayscale(.6);
 }
+
 a:hover p {
     filter: grayscale(.1);
     -webkit-filter: grayscale(.1);
 }
+
 .wrapper .text {
     position: relative;
     top: -10rem;
@@ -185,117 +190,111 @@ a:hover p {
     text-transform: uppercase;
     font: 1.25rem/.55rem;
     font-weight: 900;
-
 }
 
 .wrapper:hover .text {
     visibility: visible;
 }
 
-
-
 /*--------------------------------------------------------------- screen variants */
 @media only screen and (max-width: 31rem) {
+    .name {
+        font-size: .85rem;
+        font-weight: 900;
+        margin: -3.5rem 0 -1rem 3rem;
+        color: #F63;
+    }
 
+    .wrapper .text {
+        margin: 5rem 0 0;
+        height: 5rem;
+        width: 10rem;
+    }
 
-.name {
-    font-size: .85rem;
-    font-weight: 900;
-    margin: -3.5rem 0 -1rem 3rem;
-    color: #F63;
-}
+    p {
+        font-size: .75rem;
+        line-height: .5rem;
+    }
 
-.wrapper .text {
-    margin: 5rem 0 0;
-    height: 5rem;
-    width: 10rem;
-}
-p {
-    font-size:.75rem;
-    line-height:.5rem;
-}
-nav ul {
-    margin: 1.5rem 0 2rem 2rem;
-}
+    nav ul {
+        margin: 1.5rem 0 2rem 0rem;
+    }
 
-nav {
-    height: 8rem;
-}
+    nav {
+        height: 8rem;
+    }
 
-.portrait {
-    margin-top: 0;
-}
+    .portrait {
+        margin-top: 0;
+    }
 
-.decorative-box {
-    margin: 28rem 0 0 .5rem;
-}
+    .decorative-box {
+        margin: 28rem 0 0 .5rem;
+    }
 
-.intro-first {
-    margin-top: 8rem;
-}
+    .intro-first {
+        margin-top: 8rem;
+    }
 
-.intro-first .row {
-    margin: 0 auto;
-}
+    .intro-first .row {
+        margin: 0 auto;
+    }
 
-p.text {
-    font: 1.5rem cubano,sans-serif;
-    width: 100%;
-}
+    p.text {
+        font: 1.5rem cubano,sans-serif;
+        width: 100%;
+    }
 
-.email {
-    margin: 20rem 0 0 -2rem;
-}
+    .email {
+        margin: 20rem 0 0 -2rem;
+    }
 
-.legal {
-    font-size: .5rem;
-    margin: -7.5rem 0 0 1rem;
-}
+    .legal {
+        font-size: .5rem;
+        margin: -7.5rem 0 0 1rem;
+    }
 
-.legal-project {
-    font-size: .5rem;
-    margin: 0 0 0 1rem;
-    padding: 1rem;
-    color: #F63;
-}
+    .legal-project {
+        font-size: .5rem;
+        margin: 0 0 0 1rem;
+        padding: 1rem;
+        color: #F63;
+    }
 }
 
 @media only screen and (min-width: 31rem) and (max-width: 40.0625rem) {
-nav ul {
-    margin: 3rem 0 2rem 10rem;
-}
+    nav ul {
+        margin: 3rem 0 2rem 6rem;
+    }
 
-p.text {
-    font: 2rem cubano,sans-serif;
-    width: 100%;
-}
+    p.text {
+        font: 2rem cubano,sans-serif;
+        width: 100%;
+    }
 
-.intro-first .row {
-    margin: 0;
-}
+    .intro-first .row {
+        margin: 0;
+    }
 
-.name {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin: -4.5rem 0 -1rem 1.5rem;
-    color: #F63;
-}
+    .name {
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin: -4.5rem 0 -1rem 1.5rem;
+        color: #F63;
+    }
 }
 
 @media only screen and (min-width: 45.063rem) {
-.vertical-text {
-    transform-origin: left top 0;
+    .vertical-text {
+        transform-origin: left top 0;
+    }
+
+    .intro-first .row {
+        margin: 0;
+    }
+
+    nav ul {
+        margin: 2rem 0 2rem 15.25rem;
+    }
 }
 
-.intro-first .row {
-    margin: 0;
-}
-
-nav ul {
-    margin: 2rem 0 2rem 18rem;
-}
-}
-
-@media only screen and (min-width: 64.063rem) {
-
-}
